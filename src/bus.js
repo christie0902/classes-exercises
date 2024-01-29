@@ -37,3 +37,28 @@ class Bus {
     return remainingPassenger;
   }
 }
+
+// const board = (count) => {
+//     const availableSeat = seats - passengers;
+//     let updatedPassengers;
+
+//     if (count <= availableSeat) {
+//       updatedPassengers = passengers + count;
+//     } else {
+//       updatedPassengers = passengers + availableSeat;
+//     }
+
+//     console.log(updatedPassengers);
+// }
+
+// const deboard = (count) => {
+//     let remainingPassenger = passengers;
+
+//     if (count >= remainingPassenger) {
+//       remainingPassenger = 0;
+//     } else {
+//       remainingPassenger -= count;
+//     }
+
+//     return remainingPassenger;
+//   }
